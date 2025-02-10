@@ -5,7 +5,6 @@ int (main){
 char nome[50]  = "Brasil";
 
 
-
 printf("char = %d\n", nome); 
  scanf("%s", &nome);
   
