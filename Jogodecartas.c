@@ -1,25 +1,36 @@
 #include <stdio>
 
-  int(main){
-    char opçao = 'Brasil'
-    char opçao = 'estados unidos'
-    char opçao = 'japão'
-    char opçao = 'espanha'
-    char opçao = 'jamaica'
-    char opcao = 'portugal'
-    char opcao = 'noruega'
-    char opcao = 'corea do sul'
+int (main){
 
-
-    char letra = A;
-    char letra = B;
-    char letra = C;
-    char letra = D;
-    char letra = E;
-    char letra = F;
-    char letra = G;
-    char letra = H;
+char nome[50]  = "Brasil";
 
 
 
-  }
+printf("char = %d\n", nome); 
+ scanf("%s", &nome);
+  
+printf("char = B %d\n", nome); 
+ scanf("%s", &nome);
+
+printf("char = C %d\n", nome);
+ scanf("%s", &nome);
+
+printf("char = D %d\n", nome);
+ scanf("%s", &nome);
+  
+printf("char = E %d\n", nome);
+ scanf("%s", &nome);
+      
+printf("char = F %d\n", nome);
+ scanf("%s", &nome);
+  
+printf("char = G %d\n", nome);
+  scanf("%s", &nome);
+
+printf("char = H %d\n", nome);
+  scanf("%s", nome);
+
+
+return 0;
+
+}
